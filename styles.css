@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  color: turquoise;
+}
+
 .container {
   width: 70%;
   margin: auto;
@@ -7,25 +16,36 @@
 .dice {
   text-align: center;
   display: inline-block;
-
 }
 
-body {
-  background-color: #393E46;
+.re-btn {
+  width: 250px;
+  margin: auto;
+  margin-top: 45px;
+  padding: 17px;
+  border-radius: 8px;
+  background-color: turquoise;
+  color: white;
+  font-size: 18px;
+  border: none;
 }
 
-h1 {
-  margin: 30px;
-  font-family: 'Lobster', cursive;
+.re-btn:hover {
+  background-color: darkturquoise;
+}
+
+.h1 {
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
-  color: #4ECCA3;
+}
+
+.title {
+  margin: 50px 30px;
+  text-shadow: 5px 0 #232931;
+  font-size: 6rem;
 }
 
 p {
   font-size: 2rem;
-  color: #4ECCA3;
-  font-family: 'Indie Flower', cursive;
 }
 
 img {
@@ -34,8 +54,6 @@ img {
 
 footer {
   margin-top: 5%;
-  color: #EEEEEE;
+  color: #eeeeee;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
-
 }
